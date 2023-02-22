@@ -46,27 +46,7 @@ const cleanData = function(data){
     return cleaned_data;
 };
 
-var readRecord = function(){
-    if (id in products){
-        delete products[id]
-    }else{
-        console.log("Couldn't delete product, not in db")
-    }
-};
-var updateRecord = function(id,record){
-    if (id in products){
-        delete products[id]
-    }else{
-        console.log("Couldn't delete product, not in db")
-    }
-};
-var deleteRecord = function(id){
-    if (id in products){
-        delete products[id]
-    }else{
-        console.log("Couldn't delete product, not in db")
-    }
-};
+
 var addPricePoint = function(id,record){
     try{
         price_point = record['prices'][0];
