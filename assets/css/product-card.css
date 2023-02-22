@@ -1,0 +1,21 @@
+.product{
+    border:solid 1px darkblue;
+    background-color: lightblue;
+    padding:20px;
+    margin:1%;
+    max-width:40%;
+}
+.name{
+    text-decoration: underline;
+    font-size:30px
+}
+.description{
+    text-decoration: none;
+
+}
+.thumbnail{
+    border:solid 3px darkblue;
+    margin:10px;
+    width:200px;
+    height:200px;
+}

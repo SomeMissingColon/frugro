@@ -1,0 +1,12 @@
+body{
+    margin:0px;
+    font-size:15px;
+}
+#header{
+    position:relative;
+    padding:30px;
+    width: 100%;
+    background-color: lightblue;
+    border: solid 1px darkblue;
+    color:darkslategray;
+}

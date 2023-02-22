@@ -6,10 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>maxi parser EJS</h1>
+    <h1>index</h1>
     <% Object.keys(db).forEach(code => { %>
         
-       <h2><%- include('./partials/product-card',{product:db[code]}) %></h2>
+       <%- include('./partials/product-card',{product:db[code]}) %>
      <% }); %>
 </body>
 </html>

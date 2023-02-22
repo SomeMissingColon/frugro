@@ -1,6 +1,13 @@
+<link rel="stylesheet" href="css/product-card.css">
+
 <div class="product">
-    <h3 class="name"><%= product['name']%></h3>
-    <p class="description"><%=product['description'] %></p>
-    <p class="price"><%=product['prices']%> </p>
     <img src=<%=product['images'][0]['smallUrl'] %> alt="picture of <%=product['name'] %>" class="thumbnail">
+    <br>
+    <a class="name" href="./<%=product['code']%>"><%= product['name']%></a>
+    <p class="description"><%=product['description'] %></p>
+    <p class="price">latest price:<%=product['prices'].slice(-1)[0][0] %>$</p>
+       
+      
+       
+   
 </div>

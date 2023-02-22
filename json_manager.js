@@ -16,6 +16,7 @@ const cleanData = function(data){
             comparaisonPrice = product['prices']['comparisonPrices'][0]['value']
             
             time = new Date
+            time = time.toDateString()
             /// 
             
             clean_product['code'] = code
